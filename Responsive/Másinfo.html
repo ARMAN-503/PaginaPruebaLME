@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Mi Página Web Responsiva</title>
+</head>
+<body>
+    <header>
+        <h1>  Hablemos sobre bootstrap. </h1>
+        <nav>
+            <ul>
+                <li><a href="Proyecto final.html">Inicio</a></li>
+                <li><a href="#">Acerca de</a></li>
+                <li><a href="#">Servicios</a></li>
+                <li><a href="Formulario.html">Contacto</a></li>
+            </ul>
+        </nav>  
+    </header>
+    <div class="row g-0 text-center">
+        <div class="col-sm-6 col-md-8"> 
+            <h1> ¿Cómo funciona Bootstrap? </h1>
+            Hay un archivo principal llamado bootstrap.css, que contiene una definición para todos los estilos utilizados. Básicamente, la estructura del framework se compone de dos directorios:
+            <br>
+            <br>
+            css: contiene los archivos necesarios para la estilización de los elementos y una alternativa al tema original;
+            js: contiene la parte posterior del archivo bootstrap.js (original y minificado), responsable de la ejecución de aplicaciones de estilo que requieren manipulación interactiva.
+            Para asignarle una característica a un elemento, simplemente debemos informar la clase correspondiente en la propiedad “class” del elemento que será estilizado, como mostramos e el siguiente ejemplo:
+            <br>
+            <br>
+            texto alternativo
+            En este ejemplo, fue asignado el contenido "rounded-sm" para una propiedad de imagen. Es un estilo que agrega bordes redondeados y no un elemento.
+            <br>
+            <br>
+            Por lo tanto, al cargar la imagen, se aplicarán al elemento las características que se refieren a esta clase
+            <hr>
+            <br><br>
+            <img src="img/imgdefault.jpg" class="img-thumbnail" alt="imagen" width="45%" height="45%">
+        </div>
+            <br>
+            <br>
+        <div class="col-6 col-md-4">
+            <h1> ¿Cómo configurar y usar Bootstrap? </h1>
+            Hay diferentes formas de configurarlo o estructurarlo para usarlo en una aplicación web. Sin embargo, para que funcione correctamente, es necesario agregar las bibliotecas JQuery y Popper.js, necesarias para la ejecución de algunos componentes de Bootstrap.
+            <br>
+            <br>
+            Para comenzar a usar Bootstrap en una página, es necesario agregar las referencias de los principales archivos del framework en la página principal de la aplicación.
+            <br>
+            <br>
+            A continuación, puedes ver el código de una página HTML con todas las referencias necesarias para que la estructura funcione:
+            <br><br>
+            "!doctype html> <html lang="en"> head>   <!-- Required meta tags -->  meta charset="utf-8"> meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <!-- Bootstrap CSS --> link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> title>Hello, world! /title> /head> body> h1>Hello, world!/h1>
+            <br><br>
+        </div>
+      </div>
+    <footer>
+        <section class="buttons">
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-google-plus"></a>
+            <a href="#" class="fa fa-youtube"></a>
+        </section>
+        <br>
+        <hr>
+        <br>
+        <p>
+            <a href="#">Privacidad</a> | 
+            <a href="#">Términos del sitio</a> | 
+            <a href="#">Preferencias de cookies</a> | 
+            © 2023, UDB Web Services, Inc. o sus filiales. Todos los derechos reservados.
+        </p>
+    </footer>
+
+</body>
+</html>
